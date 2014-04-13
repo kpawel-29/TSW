@@ -1,0 +1,35 @@
+{
+  "name": "lab5-DOM",
+  "version": "0.0.0",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "underscore": "~1.6.0"
+  },
+  "exportsOverride": {
+    "jquery": {
+        "js": "dist/jquery.min.js"
+    },
+    "bootstrap": {
+        "js": "dist/js/bootstrap.min.js",
+        "css": [
+            "dist/css/bootstrap.min.css",
+            "dist/css/bootstrap-theme.min.css"
+        ]
+    },
+    "underscore": {
+        "js": "underscore.js"
+    }
+}
+}

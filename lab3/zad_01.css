@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.A {
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  background-color: #ffff00;
+  border: 1px solid #ff0000;
+  text-align: center;
+}
+.B {
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  background-color: #ffffff;
+  border: 1px solid #0000ff;
+  text-align: center;
+}

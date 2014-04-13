@@ -1,0 +1,27 @@
+
+html,body{
+	height:100%;
+	width:100%;
+}
+
+
+.box(@borderColor,@backgroundColor){
+	position: absolute;
+	width:30%;
+	height:15%;
+	background-color: @backgroundColor;
+	border:1px solid @borderColor;
+	text-align:center;
+	
+
+}
+
+.A{
+	.box(red,yellow);
+
+
+}
+
+.B{
+	.box(blue,#FFFFFF);
+}

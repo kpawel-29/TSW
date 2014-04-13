@@ -1,0 +1,25 @@
+body,
+html {
+  overflow: hidden;
+}
+#menu {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+#menu .el_menu {
+  position: relative;
+  top: 25px;
+  display: block;
+}
+#tresc {
+  position: fixed;
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+  border: 1px solid blue;
+  border-left: 3px solid;
+}

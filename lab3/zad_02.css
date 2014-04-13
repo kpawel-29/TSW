@@ -1,0 +1,21 @@
+#menu {
+  background-color: #EDEFEB;
+  border: 2px solid grey;
+  padding: 5px;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+#menu .el_menu {
+  border: 1px solid;
+}
+a:link {
+  color: #820000;
+}
+#tresc {
+  position: fixed;
+  top: 35px;
+  overflow: scroll;
+  height: 100%;
+}

@@ -1,0 +1,35 @@
+.C {
+  background-color: #F5DEB3;
+  border: 2px solid;
+  border-color: red;
+  width: 21em;
+  height: 1em;
+  padding: 1em;
+}
+.A {
+  position: relative;
+  top: -0.4em;
+  color: red;
+}
+.A .A {
+  position: relative;
+  left: 2em;
+  top: -0.8em;
+  color: red;
+}
+.A .A .A {
+  color: red;
+}
+.A .A .A .A {
+  color: blue;
+  top: -0.8em;
+}
+.B {
+  position: relative;
+  top: -1.5em;
+  left: 2em;
+  color: green;
+}
+* {
+  font-size: x-large;
+}
